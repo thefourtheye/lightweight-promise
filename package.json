@@ -25,5 +25,9 @@
   "homepage": "https://github.com/thefourtheye/lightweight-promise#readme",
   "dependencies": {
     "bindings": "^1.2.1"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "bluebird": "^3.5.0"
   }
 }
