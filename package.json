@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/thefourtheye/lightweight-promise/issues"
   },
-  "homepage": "https://github.com/thefourtheye/lightweight-promise#readme"
+  "homepage": "https://github.com/thefourtheye/lightweight-promise#readme",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
 }
