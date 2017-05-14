@@ -4,6 +4,7 @@
   "description": "Light weight promise implementation based on V8 APIs",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint index.js benchmarks/*.js benchmarks/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
-    "bluebird": "^3.5.0"
+    "bluebird": "^3.5.0",
+    "eslint": "^3.19.0"
   }
 }
