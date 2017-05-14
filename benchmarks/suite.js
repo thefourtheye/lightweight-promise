@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function (benchmarkName, nativeES2015, lightWeight, bluebird) {
     new require('benchmark').Suite(`Benchmarking ${benchmarkName}`)
         .add('Native ES2015', nativeES2015)

@@ -5,6 +5,9 @@
     },
     "extends": "eslint:recommended",
     "rules": {
+        "strict": [
+            "error"
+        ],
         "no-console": [
             "off"
         ],
